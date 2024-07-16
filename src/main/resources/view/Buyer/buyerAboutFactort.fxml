@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" prefHeight="798.0" prefWidth="1543.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.deb.Controller.BuyerAboutFactory">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="797.0" prefWidth="777.0" style="-fx-background-color: #c0c4c5;">
+         <children>
+            <AnchorPane layoutX="58.0" layoutY="46.0" prefHeight="756.0" prefWidth="731.0" style="-fx-background-color: #0693e3; -fx-background-radius: 15 0 0 15;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="789.0" prefHeight="801.0" prefWidth="754.0" style="-fx-background-color: #0693e3;">
+         <children>
+            <AnchorPane layoutX="-681.0" layoutY="45.0" prefHeight="756.0" prefWidth="1362.0" style="-fx-background-color: #fefffe; -fx-background-radius: 0 15 15 0;">
+               <children>
+                  <ImageView fitHeight="39.0" fitWidth="34.0" layoutX="14.0" layoutY="12.0" onMouseClicked="#backOnClick" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icon/back-button%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <TextArea layoutX="6.0" layoutY="156.0" prefHeight="150.0" prefWidth="731.0" style="-fx-background-color: #fefffe; -fx-border-color: #fefffe;" text="Driven by innovation, sustainability, collaboration and a commitment to quality,&#10; we work together to bring ideas to life.&#10;At the heart of our operations, is a 70,000 square foot Innovation &#10;Center where ideas are transformed into products. The center features a print resource library&#10;, sample room, pattern making facilities and world-class design capabilities enabling our teams and customers&#10; to work together collaboratively to bring ideas to life.">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="692.0" fitWidth="590.0" layoutX="758.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../gif/starvideo.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="244.0" fitWidth="247.0" layoutX="726.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/download.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="191.0" fitWidth="340.0" layoutX="1067.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <TextArea layoutX="-623.0" layoutY="51.0" prefHeight="130.0" prefWidth="532.0" style="-fx-border-color: #fefffe; -fx-background-color: #fefffe;" text="At Star, we’re a world-class apparel sourcing, &#10;design and manufacturing company. &#10;We provide expert, seamless execution in product development,&#10; technical innovation, on-time delivery and personalized customer service to &#10;ensure the best quality and value for each of our customers.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+            <Text layoutX="-601.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transforming Ideas Into Products">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="-586.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Trusted Partner">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <TextArea layoutX="-664.0" layoutY="376.0" prefHeight="150.0" prefWidth="731.0" style="-fx-background-color: #fefffe;" text="Founded in 1978, Star is one of the key players in the Sri Lankan apparel industry.&#10; We employ a team of over 8,500 dedicated associates whose core competencies&#10; are in maintaining the highest standards, ensuring timely deliveries and providing&#10; individualized customer service to a variety of premiere global brands.&#10;Our decades of experience, backed by solid and transparent business practices, &#10;make Star a partner that our customers and employees value and trust.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+            <Text layoutX="-577.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Komar Company">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <TextArea layoutX="-664.0" layoutY="551.0" prefHeight="209.0" prefWidth="694.0" style="-fx-background-color: #fefffe;" text="We’re proud to be a Komar company. &#10;Komar is a global leader in the design, sourcing, manufacturing and distribution of apparel.&#10; Komar manages a diverse portfolio consisting of owned, licensed and private label brands.&#10;Established in 1908, Komar was founded on the guiding principle of ‘one reputation,&#10; real values’ and it continues to guide the company today.&#10; Komar is a trusted partner bringing its deep expertise and personalized approach to everything it does.&#10;In 2016 Star was acquired by Komar to expand operations and drive innovation&#10; and added value for its customers. Komar is committed to its operations in Sri Lanka and plans&#10; continued investment in operations and local communities.&#10;">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

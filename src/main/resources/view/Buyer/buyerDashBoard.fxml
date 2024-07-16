@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" prefHeight="798.0" prefWidth="1543.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.deb.Controller.BuyerDashBoard">
+   <children>
+      <AnchorPane layoutX="15.0" layoutY="5.0" prefHeight="802.0" prefWidth="774.0" style="-fx-background-color: #c0c4c5;" />
+      <AnchorPane layoutX="789.0" layoutY="5.0" prefHeight="801.0" prefWidth="754.0" style="-fx-background-color: #0693e3;">
+         <children>
+            <AnchorPane layoutX="-681.0" layoutY="45.0" prefHeight="691.0" prefWidth="1387.0" style="-fx-background-color: #fefffe; -fx-background-radius: 15;">
+               <children>
+                  <ImageView fitHeight="54.0" fitWidth="32.0" layoutX="12.0" layoutY="20.0" onMouseClicked="#btnBackMouseOnAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icon/back-button%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane fx:id="AnchorAboutFactory" layoutX="189.0" layoutY="24.0" onMouseClicked="#AnchorAboutFactoryOnMouseClicked" prefHeight="266.0" prefWidth="270.0" style="-fx-background-radius: 15; -fx-background-color: ffffffff;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../gif/factory.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Text fx:id="txtAboutFactory" fill="#3012da" layoutX="155.0" layoutY="318.0" onMouseClicked="#txtAboutFactoryMouseOnClick" strokeType="OUTSIDE" strokeWidth="0.0" text="About Factory" textAlignment="CENTER" wrappingWidth="311.6344909667969">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane fx:id="anchornTShirt" layoutX="542.0" layoutY="28.0" onMouseClicked="#ancharPaneTshirtMouseOnClick" prefHeight="266.0" prefWidth="270.0" style="-fx-background-radius: 15; -fx-background-color: ffffffff;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <Label fx:id="lblRawMatirialCount" layoutX="265.0" layoutY="11.0">
+                           <font>
+                              <Font name="Dyuthi Regular" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="178.0" fitWidth="325.0" layoutX="41.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../gif/shirtw.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Text fx:id="txtTshirt" fill="#3012da" layoutX="580.0" layoutY="318.0" onMouseClicked="#txtTshirtOnClick" strokeType="OUTSIDE" strokeWidth="0.0" text="T-shirt" textAlignment="CENTER" wrappingWidth="228.00000000000023">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1172.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/logo.png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane fx:id="ancharPaneFrock" layoutX="898.0" layoutY="343.0" onMouseClicked="#anchorPaneFrockMouseOnClick" prefHeight="266.0" prefWidth="270.0" style="-fx-background-radius: 15; -fx-background-color: ffffffff;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="21.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="21.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="207.0" fitWidth="251.0" layoutX="35.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../gif/frock.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancarPaneTrouser" layoutX="189.0" layoutY="345.0" onMouseClicked="#anchorPaneTrouserMouseOnClick" prefHeight="266.0" prefWidth="270.0" style="-fx-background-radius: 15; -fx-background-color: ffffffff;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="235.0" fitWidth="342.0" layoutX="51.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../gif/shorts.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="ancapaneshirt" layoutX="894.0" layoutY="27.0" onMouseClicked="#ancapaneShirtOnMouseClick" prefHeight="266.0" prefWidth="270.0" style="-fx-background-radius: 15; -fx-background-color: ffffffff;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="207.0" fitWidth="200.0" layoutX="33.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../gif/shirt_dribbble.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Text fx:id="txtProduct" fill="#3012da" layoutX="549.0" layoutY="639.0" onMouseClicked="#txtRegisterBuyerOnClick" strokeType="OUTSIDE" strokeWidth="0.0" text="Trouser" textAlignment="CENTER" wrappingWidth="299.99999999999994">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane fx:id="anchorRegisterBuyer" layoutX="539.0" layoutY="346.0" onMouseClicked="#AnchorRegisterBuyerMouseOnClick" prefHeight="266.0" prefWidth="270.0" style="-fx-background-radius: 15; -fx-background-color: ffffffff;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <ImageView fitHeight="194.0" fitWidth="594.0" layoutX="59.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../gif/troser-1.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Text fx:id="txtFrock" fill="#3012da" layoutX="941.0" layoutY="636.0" onMouseClicked="#txtFrockOnClick" strokeType="OUTSIDE" strokeWidth="0.0" text="frock" textAlignment="CENTER" wrappingWidth="205.44827270507812">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txttrouser" fill="#3012da" layoutX="204.0" layoutY="639.0" onMouseClicked="#txtTrouserMouseOnClick" strokeType="OUTSIDE" strokeWidth="0.0" text=" pant" textAlignment="CENTER" wrappingWidth="219.69000244140625">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txtShirt" fill="#3012da" layoutX="929.0" layoutY="320.0" onMouseClicked="#txtShirtMouseOnClick" strokeType="OUTSIDE" strokeWidth="0.0" text="Shirt" textAlignment="CENTER" wrappingWidth="178.79998779296875">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

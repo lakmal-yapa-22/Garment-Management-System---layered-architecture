@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" prefHeight="798.0" prefWidth="1543.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.deb.Controller.LoginFormController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="797.0" prefWidth="777.0" style="-fx-background-color: #c0c4c5;">
+         <children>
+            <AnchorPane layoutX="58.0" layoutY="46.0" prefHeight="756.0" prefWidth="731.0" style="-fx-background-color: #0693e3; -fx-background-radius: 15 0 0 15;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="789.0" prefHeight="801.0" prefWidth="754.0" style="-fx-background-color: #0693e3;">
+         <children>
+            <AnchorPane layoutX="-681.0" layoutY="45.0" prefHeight="756.0" prefWidth="1362.0" style="-fx-background-color: #fefffe; -fx-background-radius: 0 15 15 0;">
+               <children>
+                  <AnchorPane layoutX="681.0" layoutY="45.0" prefHeight="672.0" prefWidth="610.0" style="-fx-background-color: #ADD8E6; -fx-background-radius: 0 15 15 0;">
+                     <children>
+                        <Text layoutX="196.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN" textAlignment="CENTER" wrappingWidth="226.09002685546875">
+                           <font>
+                              <Font name="System Bold" size="64.0" />
+                           </font>
+                        </Text>
+                        <Label fx:id="lblTime" layoutX="273.0" layoutY="620.0" text="LabelT">
+                           <font>
+                              <Font name="Dyuthi Regular" size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txtUserName" layoutX="79.0" layoutY="185.0" prefHeight="36.0" prefWidth="423.0" promptText="user name">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </TextField>
+                        <Text layoutX="87.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User name:">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="95.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Text>
+                        <PasswordField fx:id="txtPassword" layoutX="81.0" layoutY="278.0" prefHeight="36.0" prefWidth="423.0" promptText="password">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </PasswordField>
+                        <Button fx:id="btnLogin" layoutX="127.0" layoutY="330.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="38.0" prefWidth="310.0" style="-fx-background-color: #0693e3;" text="LOGIN" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Text layoutX="266.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR">
+                           <font>
+                              <Font name="Dubai Bold" size="27.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="96.0" layoutY="437.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="406.0" style="-fx-background-color: #008000;" text="Create New Account" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <Text layoutX="788.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Keep your login credentials confidential. Do not share your username or password with unauthorized individuals." textAlignment="CENTER" wrappingWidth="382.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="lblDate" layoutX="293.0" layoutY="76.0" text="LabelT">
+                     <font>
+                        <Font name="Dyuthi Regular" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="336.0" fitWidth="326.0" layoutX="243.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gif/Loging.gif" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="21.0" layoutY="25.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="46.0" prefWidth="140.0" style="-fx-background-color: #0693e3;" text="Back" textFill="#fffcfc">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="336.0" fitWidth="300.0" layoutX="193.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Computer-login.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

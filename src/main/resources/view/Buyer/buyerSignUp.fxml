@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" prefHeight="798.0" prefWidth="1543.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.deb.Controller.BuyerSignUpControllerr">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="797.0" prefWidth="777.0" style="-fx-background-color: #c0c4c5;">
+         <children>
+            <AnchorPane layoutX="58.0" layoutY="46.0" prefHeight="756.0" prefWidth="731.0" style="-fx-background-color: #0693e3; -fx-background-radius: 15 0 0 15;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="789.0" prefHeight="801.0" prefWidth="754.0" style="-fx-background-color: #0693e3;">
+         <children>
+            <AnchorPane layoutX="-681.0" layoutY="45.0" prefHeight="756.0" prefWidth="1362.0" style="-fx-background-color: #fefffe; -fx-background-radius: 0 15 15 0;">
+               <children>
+                  <Text layoutX="852.0" layoutY="636.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="745.0" layoutY="664.0" strokeType="OUTSIDE" strokeWidth="0.0" text="already have an account  ?">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txtLogin" fill="BLUE" layoutX="920.0" layoutY="666.0" onMouseClicked="#txtLoginOnMouseClickedAction" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="243.0" fitWidth="365.0" layoutX="192.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/download.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="734.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIGNUP">
+                     <font>
+                        <Font name="System Bold" size="64.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <TextField fx:id="txtUseName" layoutX="12.0" layoutY="232.0" onKeyReleased="#userNameOnKeyReleased" prefHeight="36.0" prefWidth="328.0" promptText="Use Name" />
+            <Text layoutX="12.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User name">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="12.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnsign" layoutX="70.0" layoutY="594.0" mnemonicParsing="false" onAction="#btnSignUpOnAction" prefHeight="24.0" prefWidth="223.0" style="-fx-background-color: #0693e3; -fx-border-radius: 15;" text="SIGNUP" textFill="#faf8f8">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="txtpassword" layoutX="12.0" layoutY="456.0" onKeyReleased="#passwordOnKeyReleased" prefHeight="36.0" prefWidth="328.0" promptText="password" />
+            <TextField fx:id="txtEmail" layoutX="12.0" layoutY="334.0" onKeyReleased="#emailOnKeyReleased" prefHeight="36.0" prefWidth="328.0" promptText="email" />
+            <Text layoutX="12.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtconformPassword" layoutX="12.0" layoutY="543.0" prefHeight="36.0" prefWidth="328.0" promptText="Conform Password" />
+            <Text layoutX="15.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="conform Password">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
